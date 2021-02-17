@@ -1,0 +1,53 @@
+.avatar{
+    display:flex;
+    width:500px;
+    justify-content:center;
+    align-items: center;
+    height:450px;
+    margin: 10vh auto 0 auto;
+
+}
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 45px 15px rgb(143, 128, 177);
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 30px;
+    font-size: 50px;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid rgb(106, 17, 189);
+    border-left: 1px solid rgb(106, 106, 224);
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+.buttons > div {
+    border-top: 1px solid rgb(124, 65, 172);
+    border-right: 1px solid rgb(48, 65, 221);
+}
+
+.button {
+    border: 0.5px solid rgb(47, 123, 185);
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: rgb(106, 106, 224);
+    color: black;
+}
+
+.button:hover {
+    background-color: rgb(106, 106, 224);
+    color: white;
+    transition: 0.8s;
+}
